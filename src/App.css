@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(227, 41, 41);
+}
+
+.container{
+    background-color: rgba(108, 108, 108, 0.559);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.container .img{
+    text-align: center;
+}
+img{
+    width: 150px;
+}
+input{
+    padding: 15px 10px;
+    width: 95%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(108, 108, 108, 0);
+    color: aqua;
+    
+}
+::placeholder{
+    color: white;
+}
+
+table{
+    width: 100%;
+    text-align: start;
+    padding: 20px;
+}
+tr,td{
+    width: 50%;
+}
